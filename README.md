@@ -1,4 +1,4 @@
-# 🔍 Absenteeism Model Comparison
+#  Absenteeism Model Comparison
 ## Empirical Evaluation of Classification Models
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
@@ -7,11 +7,11 @@
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project presents a **comprehensive empirical evaluation** of three machine learning models for predicting employee absenteeism at work using structured comparison metrics and cross-validation.
 
-### 🎯 Models Compared
+### Models Compared
 
 | Model | Type | Best For |
 |-------|------|----------|
@@ -21,22 +21,22 @@ This project presents a **comprehensive empirical evaluation** of three machine 
 
 ---
 
-## 📈 Key Performance Metrics
+##  Key Performance Metrics
 
 Models are rigorously evaluated using:
 
-- ✅ **Accuracy** - Overall correctness
-- ✅ **Precision** - Positive prediction accuracy
-- ✅ **Recall** - True positive identification rate
-- ✅ **F1-Score** - Harmonic mean (balanced metric)
-- ✅ **ROC-AUC** - Discriminative ability
-- ✅ **5-Fold Cross-Validation** - Robustness testing
-- ✅ **Confusion Matrix** - Error analysis
-- ✅ **Classification Report** - Per-class metrics
+-  **Accuracy** - Overall correctness
+-  **Precision** - Positive prediction accuracy
+-  **Recall** - True positive identification rate
+-  **F1-Score** - Harmonic mean (balanced metric)
+-  **ROC-AUC** - Discriminative ability
+-  **5-Fold Cross-Validation** - Robustness testing
+-  **Confusion Matrix** - Error analysis
+-  **Classification Report** - Per-class metrics
 
 ---
 
-## 🏆 Results Summary
+##  Results Summary
 
 ### Best Performing Model: **Logistic Regression**
 
@@ -51,13 +51,13 @@ CV Accuracy:    ~72% (±3%)
 
 ### Model Rankings
 
-1. 🥇 **Logistic Regression** - Best overall balance
-2. 🥈 **Decision Tree** - Good interpretability, slightly lower performance
-3. 🥉 **Linear Regression** - Baseline comparison, not ideal for classification
+1.  **Logistic Regression** - Best overall balance
+2.  **Decision Tree** - Good interpretability, slightly lower performance
+3.  **Linear Regression** - Baseline comparison, not ideal for classification
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 absenteeism-model-comparison/
@@ -71,9 +71,9 @@ absenteeism-model-comparison/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
-### 1️⃣ Installation
+### Installation
 
 ```bash
 # Clone the repository
@@ -84,7 +84,7 @@ cd absenteeism-model-comparison
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run in Google Colab (Recommended)
+### Run in Google Colab (Recommended)
 
 **Easiest way - no installation needed:**
 
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 5. Upload your `Absenteeism_data.xlsx` when prompted
 6. Click **Run All**
 
-### 3️⃣ Run Locally
+### Run Locally
 
 ```bash
 # Make sure Absenteeism_data.xlsx is in the same directory
@@ -104,7 +104,7 @@ python absenteeism_model_comparison.py
 
 ---
 
-## 📚 Dataset Description
+## Dataset Description
 
 ### Features Used (5 predictors):
 - `Son` - Number of children
@@ -126,26 +126,26 @@ python absenteeism_model_comparison.py
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
-### 1️⃣ Logistic Regression: The Winner
+### Logistic Regression: The Winner
 - **Advantage**: Strong probabilistic framework, best AUC score
 - **Use case**: Production deployment, probability estimation
 - **Interpretability**: Excellent (clear coefficient weights)
 
-### 2️⃣ Decision Tree: Interpretable Alternative
+### Decision Tree: Interpretable Alternative
 - **Advantage**: Non-linear decision boundaries, rule extraction
 - **Use case**: When explainability is critical
 - **Limitation**: Slightly higher variance, prone to overfitting
 
-### 3️⃣ Linear Regression: Baseline Comparison
+### Linear Regression: Baseline Comparison
 - **Advantage**: Simple, fast training
 - **Limitation**: Not designed for classification (outputs continuous values)
 - **Insight**: Regression models can be adapted for classification but underperform
 
 ---
 
-## 📊 Evaluation Methodology
+## Evaluation Methodology
 
 ### Cross-Validation Strategy
 ```python
@@ -173,7 +173,7 @@ class_weight='balanced'
 
 ---
 
-## 📈 Visualizations Included
+## Visualizations Included
 
 The notebook generates a comprehensive 6-panel visualization:
 
@@ -189,7 +189,7 @@ Output: `model_comparison_results.png` (saved automatically)
 
 ---
 
-## 🛠️ Technologies & Libraries
+## Technologies & Libraries
 
 | Library | Version | Purpose |
 |---------|---------|---------|
@@ -202,7 +202,7 @@ Output: `model_comparison_results.png` (saved automatically)
 
 ---
 
-## 📝 How Models Are Evaluated
+## How Models Are Evaluated
 
 ### Logistic Regression
 ```python
@@ -226,23 +226,23 @@ DecisionTreeClassifier(max_depth=5, random_state=42, class_weight='balanced')
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 After exploring this project, you'll understand:
 
-✅ How to compare multiple ML models empirically  
-✅ The importance of multiple evaluation metrics  
-✅ Cross-validation for robust performance assessment  
-✅ ROC curves and AUC interpretation  
-✅ Trade-offs: Accuracy vs Precision vs Recall  
-✅ When to use Logistic Regression vs Decision Trees  
-✅ How to prepare data for ML (scaling, stratification)  
-✅ Confusion matrix interpretation  
-✅ Production-ready code structure  
+How to compare multiple ML models empirically  
+The importance of multiple evaluation metrics  
+Cross-validation for robust performance assessment  
+ROC curves and AUC interpretation  
+Trade-offs: Accuracy vs Precision vs Recall  
+When to use Logistic Regression vs Decision Trees  
+How to prepare data for ML (scaling, stratification)  
+Confusion matrix interpretation  
+Production-ready code structure  
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ### System
 - Python 3.8 or higher
@@ -265,17 +265,15 @@ openpyxl>=3.6.0
 
 ---
 
-## 🔗 Project Context
+##  Project Context
 
 **Course**: Data Science & Machine Learning  
 **University**: CHRIST (Deemed to be University), Bengaluru  
-**Department**: Computer Science  
-**Instructor**: [Your Professor]  
-**Submission Date**: 2026-08-23  
+**Department**: Computer Science   
 
 ---
 
-## 📖 Usage Examples
+##  Usage Examples
 
 ### Running in Python Script
 ```python
@@ -296,7 +294,7 @@ print(f"Accuracy: {lr.score(X_test_scaled, y_test):.4f}")
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "ModuleNotFoundError"
 ```bash
@@ -315,7 +313,7 @@ files.upload()
 
 ---
 
-## 📚 References & Further Reading
+##  References & Further Reading
 
 ### Papers & Articles
 - [Logistic Regression in Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
@@ -332,7 +330,7 @@ files.upload()
 
 ---
 
-## 📞 Support & Contribution
+##  Support & Contribution
 
 ### Reporting Issues
 - Open an **Issue** on GitHub
@@ -363,41 +361,39 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
   author = {Khushi},
   title = {Empirical Evaluation of Classification Models for Employee Absenteeism},
   year = {2026},
-  howpublished = {\url{https://github.com/YOUR-USERNAME/absenteeism-model-comparison}}
+  howpublished = {\url{https://github.com/KhushiDharna/absenteeism-model-comparison.git}}
 }
 ```
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Khushi**  
 BSc (Hons) Computer Science & Statistics (2023-27)  
 CHRIST (Deemed to be University), Bengaluru  
-Register No: 2340277  
 
-📧 khushi.student@christuniversity.in  
-🔗 GitHub: https://github.com/YOUR-USERNAME  
+🔗 GitHub: https://github.com/KhushiDharna
 
 ---
 
-## 🎯 Project Status
+##  Project Status
 
-- ✅ **Complete**: All three models implemented and evaluated
-- ✅ **Tested**: Works in Google Colab and local environment
-- ✅ **Documented**: Comprehensive comments and docstrings
-- ✅ **Deployed**: Ready for GitHub
-- 🔄 **Maintenance**: Active - updates and improvements ongoing
+-  **Complete**: All three models implemented and evaluated
+-  **Tested**: Works in Google Colab and local environment
+-  **Documented**: Comprehensive comments and docstrings
+-  **Deployed**: Ready for GitHub
+-  **Maintenance**: Active - updates and improvements ongoing
 
 ---
 
-## 📅 Changelog
+##  Changelog
 
 ### v1.0 (2026-08-23)
-- ✨ Initial release with three models
-- 📊 Comprehensive evaluation metrics
-- 📈 Visualization suite
-- 📚 Complete documentation
+-  Initial release with three models
+-  Comprehensive evaluation metrics
+-  Visualization suite
+-  Complete documentation
 
 ---
 
