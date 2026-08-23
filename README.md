@@ -397,5 +397,3 @@ CHRIST (Deemed to be University), Bengaluru
 
 ---
 
-**⭐ If this project helps you, consider giving it a star!**
-
